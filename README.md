@@ -20,25 +20,7 @@ This project also includes a Flask web app interface to upload videos and get re
 - Supports batch processing and real-time video analysis  
 - Modular, extensible codebase for further research and improvements
 
-DeepFake-Detector/
-├── data/
-│ ├── raw_videos/
-│ │ ├── real/
-│ │ └── fake/
-│ └── processed_frames/
-├── models/
-│ ├── deepfake_cnn_lstm.h5
-│ └── labels.pkl
-├── scripts/
-│ ├── extract_faces_auto.py
-│ ├── train_model.py
-│ └── detect_video.py
-├── webapp/
-│ ├── app.py
-│ ├── templates/
-│ └── static/
-├── requirements.txt
-└── README.md
+---
 
 ## Demo
 
