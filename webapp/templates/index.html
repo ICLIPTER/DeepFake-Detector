@@ -1,16 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Deepfake Detector</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta charset="UTF-8" />
+    <title>Deepfake Detection</title>
+    <style>
+        body { font-family: Arial, sans-serif; background:#f4f4f4; padding: 20px; }
+        .container { max-width: 600px; margin: auto; background: white; padding: 20px; border-radius: 8px; }
+        h1 { text-align: center; }
+        input[type=file] { width: 100%; margin: 20px 0; }
+        button { padding: 10px 20px; font-size: 16px; cursor: pointer; background: #007BFF; border: none; color: white; border-radius: 5px; }
+        button:hover { background: #0056b3; }
+        .footer { text-align:center; margin-top: 30px; font-size: 14px; color: #666; }
+    </style>
 </head>
 <body>
     <div class="container">
-        <h1>Deepfake Video Detector</h1>
-        <form action="/upload" method="post" enctype="multipart/form-data">
-            <input type="file" name="video" accept="video/*" required>
-            <button type="submit">Upload & Detect</button>
+        <h1>Deepfake Video Detection</h1>
+        <form action="{{ url_for('upload_video') }}" method="post" enctype="multipart/form-data">
+            <label for="video">Choose a video file to upload:</label>
+            <input type="file" id="video" name="video" accept="video/*" required />
+            <button type="submit">Predict</button>
         </form>
+    </div>
+    <div class="footer">
+        &copy; 2025 ICLIPTER
     </div>
 </body>
 </html>
