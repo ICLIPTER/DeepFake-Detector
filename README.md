@@ -21,7 +21,6 @@ This project also includes a Flask web app interface to upload videos and get re
 - Modular, extensible codebase for further research and improvements
 
 ---
-
 ## Project Structure 
 DeepFake-Detector/
 ├── data/
