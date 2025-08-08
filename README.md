@@ -1,6 +1,5 @@
 <h1>DeepFake-Detector</h1>
 
-![DeepFake-Detector](https://your-image-link-if-any)  
 *Accurately detect deepfake videos using advanced deep learning techniques.*
 
 ---
