@@ -20,7 +20,6 @@ This project also includes a Flask web app interface to upload videos and get re
 - Supports batch processing and real-time video analysis  
 - Modular, extensible codebase for further research and improvements
 
----
 DeepFake-Detector/
 ├── data/
 │ ├── raw_videos/
