@@ -1,6 +1,5 @@
 <h1>DeepFake-Detector</h1>
 
-
 *Accurately detect deepfake videos using advanced deep learning techniques.*
 
 ---
